@@ -7,5 +7,8 @@ public class Program {
         String name = input.nextLine();
         System.out.println("Уважаемый пользователь , введите пожалуйста ваш город:");
         String city = input.nextLine();
+        System.out.println("Уважаемый пользователь , введите пожалуйста ваш возраст:");
+        int age = input.nextInt();
+
     }
 }
