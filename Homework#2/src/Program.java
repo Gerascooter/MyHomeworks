@@ -9,6 +9,8 @@ public class Program {
         String city = input.nextLine();
         System.out.println("Уважаемый пользователь , введите пожалуйста ваш возраст:");
         int age = input.nextInt();
+        System.out.println("Уважаемый пользователь , введите пожалуйста ваше хобби:");
+        String hobby = input.nextLine();
 
     }
 }
