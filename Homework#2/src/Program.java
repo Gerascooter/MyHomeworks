@@ -10,7 +10,10 @@ public class Program {
         System.out.println("Уважаемый пользователь , введите пожалуйста ваш возраст:");
         int age = input.nextInt();
         System.out.println("Уважаемый пользователь , введите пожалуйста ваше хобби:");
-        String hobby = input.nextLine();
-
+        String hobby = input.next();
+        System.out.println();
+        System.out.println("Имя:       " + name + "\n" + "Город:     " + city + "\n" + "Возраст:   " + age + "\n" + "Хобби:     " + hobby + "\n" );
+        System.out.println("Человек по имени " + name + " живет в городе " + city + ".\nЭтому человеку " + age + " лет и любит он заниматься " + hobby + ".\n");
+        System.out.println(name + " - имя\n" + city + " - город\n" + age + " - возраст\n" + hobby + " - хобби\n");
     }
 }
