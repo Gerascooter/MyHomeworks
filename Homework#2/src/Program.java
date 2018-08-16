@@ -13,6 +13,7 @@ public class Program {
         String hobby = input.next();
         System.out.println();
         System.out.println("Имя:       " + name + "\n" + "Город:     " + city + "\n" + "Возраст:   " + age + "\n" + "Хобби:     " + hobby + "\n" );
-
+        System.out.println();
+        System.out.println("Человек по имени " + name + " живет в городе " + city + ".\nЭтому человеку " + age + " лет и любит он заниматься " + hobby + ".\n");
     }
 }
